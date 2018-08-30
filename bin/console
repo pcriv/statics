@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "statics"
+require "pry"
+require "pry-byebug"
+
+require "./spec/support/initializer"
+require "./spec/support/post"
+
+Pry.start

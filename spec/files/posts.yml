@@ -1,0 +1,11 @@
+post1:
+  title: "Post 1"
+  body:
+    en: "Hello!"
+    nl: "Hallo!"
+
+post2:
+  title: "Post 2"
+  body:
+    en: "Bye!"
+    nl: "Doei!"
