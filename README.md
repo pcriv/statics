@@ -1,6 +1,8 @@
 # Statics
 
 [![Gem](https://img.shields.io/gem/v/statics.svg?style=flat)](http://rubygems.org/gems/statics)
+[![Depfu](https://badges.depfu.com/badges/6f2f73672eae4d603d6ae923164435e2/overview.svg)](https://depfu.com/github/pablocrivella/statics?project=Bundler)
+[![Inline docs](http://inch-ci.org/github/pablocrivella/statics.svg?branch=master&style=shields)](http://inch-ci.org/github/pablocrivella/statics)
 [![CircleCI](https://circleci.com/gh/pablocrivella/statics.svg?style=svg)](https://circleci.com/gh/pablocrivella/statics)
 [![Maintainability](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/maintainability)](https://codeclimate.com/github/pablocrivella/statics/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/test_coverage)](https://codeclimate.com/github/pablocrivella/statics/test_coverage)
@@ -141,4 +143,4 @@ Read [Semantic Versioning](https://semver.org) for details. Briefly, it means:
 ## License
 
 Copyright 2018 [Pablo Crivella](https://pablocrivella.me).
-Read [LICENSE](LICENSE.md) for details.
+Read [LICENSE](LICENSE) for details.
