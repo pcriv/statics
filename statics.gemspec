@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "dry-equalizer", "~> 0.2"
   spec.add_runtime_dependency "dry-struct", "~> 0.5"
   spec.add_runtime_dependency "dry-types", "~> 0.13"
-  spec.add_runtime_dependency "i18n", "~> 1.1"
+  spec.add_runtime_dependency "i18n", "~> 1.0"
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "pry", "~> 0.11"
