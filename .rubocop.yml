@@ -2,6 +2,8 @@ require: rubocop-rspec
 AllCops:
   Include:
     - Gemfile
+    - lib/**/*.rb
+    - spec/**/*.rb
   TargetRubyVersion: 2.5
 
 Layout/AlignHash:
