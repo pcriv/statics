@@ -124,6 +124,8 @@ post.body #=> "Hello!"
 post.body(locale: :nl) #=> "Hallo!"
 ```
 
+Check [dry-types](https://dry-rb.org/gems/dry-types) for documentation about the [built-in types](https://dry-rb.org/gems/dry-types/built-in-types/).
+
 ## Tests
 
 To test, run:
