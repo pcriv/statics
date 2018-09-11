@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
-module Types
-  include Dry::Types.module
+module Statics
+  module Types
+    include Dry::Types.module
+  end
 end

@@ -2,6 +2,10 @@
 
 module Statics
   class Model < Dry::Struct
+    module Types
+      include Statics::Types
+    end
+
     transform_keys(&:to_sym)
 
     defines :filename
