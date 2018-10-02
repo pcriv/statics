@@ -126,6 +126,10 @@ post.body(locale: :nl) #=> "Hallo!"
 
 Check [dry-types](https://dry-rb.org/gems/dry-types) for documentation about the [built-in types](https://dry-rb.org/gems/dry-types/built-in-types/).
 
+## Caveats
+
+If you have dates in your yaml-files, use the following format for them to be handled properly: `YYYY-MM-DD`
+
 ## Tests
 
 To test, run:
