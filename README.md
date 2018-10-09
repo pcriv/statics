@@ -97,7 +97,6 @@ class Post < Statics::Model
   attribute :title, Types::Strict::String
   translatable_attribute :body
 end
-
 ```
 
 ```yml
@@ -114,7 +113,6 @@ post2:
   body:
     en: "Bye!"
     nl: "Doei!"
-
 ```
 
 ```ruby
@@ -122,6 +120,40 @@ post = Post.first
 # when I18n.locale is :en
 post.body #=> "Hello!"
 post.body(locale: :nl) #=> "Hallo!"
+```
+
+Defining optional attributes with defaults:
+
+```ruby
+class Post < Statics::Model
+  include Statics::Translatable
+
+  filename "posts"
+
+  attribute :title, Types::Strict::String
+  # With default
+  attribute :author, Types::Strict::String.meta(omittable: true).default("Unknown")
+  # Without default
+  # attribute :author, Types::Strict::String.meta(omittable: true)
+end
+```
+
+```yml
+# data/posts.yml
+---
+post1:
+  title: "Post 1"
+  author: "Rick Sanchez"
+
+post2:
+  title: "Post 2"
+```
+
+```ruby
+post1 = Post.first
+post1.author #=> "Rick Sanchez"
+post2 = Post.last
+post2.author #=> "Unknown"
 ```
 
 Check [dry-types](https://dry-rb.org/gems/dry-types) for documentation about the [built-in types](https://dry-rb.org/gems/dry-types/built-in-types/).
