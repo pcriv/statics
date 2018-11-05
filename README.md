@@ -122,7 +122,7 @@ post.body #=> "Hello!"
 post.body(locale: :nl) #=> "Hallo!"
 ```
 
-Defining optional attributes with defaults:
+Defining omittable attributes with defaults:
 
 ```ruby
 class Post < Statics::Model
@@ -132,9 +132,9 @@ class Post < Statics::Model
 
   attribute :title, Types::Strict::String
   # With default
-  attribute :author, Types::Strict::String.meta(omittable: true).default("Unknown")
+  attribute? :author, Types::Strict::String.default("Unknown")
   # Without default
-  # attribute :author, Types::Strict::String.meta(omittable: true)
+  # attribute? :author, Types::Strict::String
 end
 ```
 
