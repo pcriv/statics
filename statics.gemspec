@@ -22,17 +22,17 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "dry-equalizer", "~> 0.2"
-  spec.add_runtime_dependency "dry-struct", "~> 0.5"
+  spec.add_runtime_dependency "dry-struct", "~> 0.6"
   spec.add_runtime_dependency "dry-types", "~> 0.13"
   spec.add_runtime_dependency "i18n", "~> 1.0"
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "pry", "~> 0.11"
+  spec.add_development_dependency "pry", "~> 0.12"
   spec.add_development_dependency "pry-byebug", "~> 3.6"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rspec_junit_formatter", "~> 0.4"
-  spec.add_development_dependency "rubocop", "~> 0.58"
-  spec.add_development_dependency "rubocop-rspec", "~> 1.29"
+  spec.add_development_dependency "rubocop", "~> 0.60"
+  spec.add_development_dependency "rubocop-rspec", "~> 1.30"
   spec.add_development_dependency "simplecov", "~> 0.16"
 end

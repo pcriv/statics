@@ -6,5 +6,7 @@ class Post < Statics::Model
   filename "posts"
 
   attribute :title, Types::Strict::String
+  attribute? :author, Types::Strict::String.default("Unknown")
+
   translatable_attribute :body
 end
