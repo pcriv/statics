@@ -7,12 +7,12 @@ module Statics
     end
 
     module ClassMethods
-      def translatable_attributes(*names)
-        names.each { |name| translatable_attribute(name) }
+      def translatable_attributes(*names, **options)
+        names.each { |name| translatable_attribute(name, options) }
       end
 
-      def translatable_attribute(name)
-        attribute(name, Types::Map(Types::Strict::Symbol.constructor(&:to_sym), Types::Strict::String))
+      def translatable_attribute(name, options = {})
+        attribute(name, Types::Translations.meta(omittable: options.fetch(:optional, false)))
         override_translatable_attribute_getter(name)
       end
 

@@ -9,3 +9,13 @@ post2:
   body:
     en: "Bye!"
     nl: "Doei!"
+
+post3:
+  title: "Post 3"
+  author: "Rick Sanchez"
+  body:
+    en: "Good morning"
+    nl: "Goedemorgen"
+  footer:
+    en: "Good evening"
+    nl: "Goedenavond"

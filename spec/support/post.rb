@@ -9,4 +9,5 @@ class Post < Statics::Model
   attribute? :author, Types::Strict::String.default("Unknown")
 
   translatable_attribute :body
+  translatable_attribute :footer, optional: true
 end

@@ -76,4 +76,26 @@ RSpec.describe Statics::Model do
       it { is_expected.to eq "Hoi!" }
     end
   end
+
+  describe "optional transtable attribute" do
+    context "when attribute key is not present and no locale param is given" do
+      subject { post.footer }
+
+      it { is_expected.to eq(nil) }
+    end
+
+    context "when attribute key is not present and locale param is given" do
+      subject { post.footer(locale: :nl) }
+
+      it { is_expected.to eq(nil) }
+    end
+
+    context "when attribute key is present" do
+      subject { post.footer }
+
+      let(:post) { Post[:post3] }
+
+      it { is_expected.to eq("Good evening") }
+    end
+  end
 end
