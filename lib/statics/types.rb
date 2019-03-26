@@ -2,7 +2,7 @@
 
 module Statics
   module Types
-    include Dry::Types.module
+    include Dry.Types
 
     Translations = Types::Map(Types::Strict::Symbol.constructor(&:to_sym), Types::Strict::String)
   end
