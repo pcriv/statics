@@ -3,14 +3,19 @@ jobs:
   build:
     working_directory: ~/statics
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: circleci/ruby:2.6.2
         environment:
+          BUNDLER_VERSION: 2.0.1
           BUNDLE_JOBS: 3
           BUNDLE_RETRY: 3
           BUNDLE_PATH: vendor/bundle
           RAILS_ENV: test
     steps:
       - checkout
+
+      - run:
+          name: Update bundler
+          command: gem install bundler
 
       # Which version of bundler?
       - run:
