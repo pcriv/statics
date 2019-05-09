@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Base class and modules for static models."
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/pablocrivella/statics/issues",
-    "changelog_uri"   => "https://github.com/pablocrivella/statics/blob/master/CHANGELOG.md",
+    "changelog_uri" => "https://github.com/pablocrivella/statics/blob/master/CHANGELOG.md",
     "source_code_uri" => "https://github.com/pablocrivella/statics"
   }
   spec.files = Dir["lib/**/*"]
@@ -32,7 +32,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rspec_junit_formatter", "~> 0.4"
-  spec.add_development_dependency "rubocop", "~> 0.66"
-  spec.add_development_dependency "rubocop-rspec", "~> 1.30"
-  spec.add_development_dependency "simplecov", "~> 0.16"
+  spec.add_development_dependency "rubocop", "~> 0.6"
+  spec.add_development_dependency "rubocop-performance", "~> 1.2"
+  spec.add_development_dependency "rubocop-rspec", "~> 1.3"
+  spec.add_development_dependency "simplecov", "~> 0.1"
 end
