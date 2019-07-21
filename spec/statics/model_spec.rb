@@ -3,7 +3,7 @@
 require "spec_helper"
 
 RSpec.describe Statics::Model do
-  let(:post) { Post.new(key: "post3", title: "Post", body: { en: "Hi!", "nl" => "Hoi!" }) }
+  let(:post) { Post.new(key: "post3", title: "Post", body: {:en => "Hi!", "nl" => "Hoi!"}) }
 
   describe ".all" do
     subject { Post.all }
