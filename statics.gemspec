@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "pry", "~> 0.12"
   spec.add_development_dependency "pry-byebug", "~> 3.7"
-  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rspec_junit_formatter", "~> 0.4"
   spec.add_development_dependency "rubocop-rspec", "~> 1.3"
