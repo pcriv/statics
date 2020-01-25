@@ -3,7 +3,6 @@
 [![Gem](https://img.shields.io/gem/v/statics.svg?style=flat)](http://rubygems.org/gems/statics)
 [![Depfu](https://badges.depfu.com/badges/6f2f73672eae4d603d6ae923164435e2/overview.svg)](https://depfu.com/github/pablocrivella/statics?project=Bundler)
 [![Inline docs](http://inch-ci.org/github/pablocrivella/statics.svg?branch=master&style=shields)](http://inch-ci.org/github/pablocrivella/statics)
-[![CircleCI](https://circleci.com/gh/pablocrivella/statics.svg?style=svg)](https://circleci.com/gh/pablocrivella/statics)
 [![Maintainability](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/maintainability)](https://codeclimate.com/github/pablocrivella/statics/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/test_coverage)](https://codeclimate.com/github/pablocrivella/statics/test_coverage)
 
@@ -11,9 +10,9 @@ Base class and modules for static models.
 
 Links:
 
-  - [API Docs](https://www.rubydoc.info/gems/statics)
-  - [Contributing](https://github.com/pablocrivella/statics/blob/master/CONTRIBUTING.md)
-  - [Code of Conduct](https://github.com/pablocrivella/statics/blob/master/CODE_OF_CONDUCT.md)
+- [API Docs](https://www.rubydoc.info/gems/statics)
+- [Contributing](https://github.com/pablocrivella/statics/blob/master/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/pablocrivella/statics/blob/master/CODE_OF_CONDUCT.md)
 
 ## Requirements
 
