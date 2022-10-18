@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "dry-equalizer", "~> 0.2"
-  spec.add_runtime_dependency "dry-struct", "~> 1.0"
+  spec.add_runtime_dependency "dry-struct", "1.5.1"
   spec.add_runtime_dependency "dry-types", "~> 1.0"
   spec.add_runtime_dependency "i18n", "~> 1.0"
 
