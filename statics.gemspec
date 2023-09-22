@@ -15,13 +15,14 @@ Gem::Specification.new do |spec|
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/pablocrivella/statics/issues",
     "changelog_uri" => "https://github.com/pablocrivella/statics/blob/master/CHANGELOG.md",
-    "source_code_uri" => "https://github.com/pablocrivella/statics",
+    "source_code_uri" => "https://github.com/pablocrivella/statics"
   }
   spec.files = Dir["lib/**/*"]
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "dry-equalizer", "~> 0.2"
+  spec.add_runtime_dependency "dry-configurable", "~> 1.0"
+  spec.add_runtime_dependency "dry-core", "~> 1.0"
   spec.add_runtime_dependency "dry-struct", "~> 1.0"
   spec.add_runtime_dependency "dry-types", "~> 1.0"
   spec.add_runtime_dependency "i18n", "~> 1.0"

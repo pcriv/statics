@@ -25,9 +25,9 @@ module Statics
         @all ||= Collection.new(records)
       end
 
-      def method_missing(method, *args, &block)
+      def method_missing(method, *, &block)
         if Collection.instance_methods.include?(method)
-          all.public_send(method, *args, &block)
+          all.public_send(method, *, &block)
         else
           super
         end

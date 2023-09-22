@@ -2,7 +2,8 @@ name: Publish gem
 
 on:
   release:
-    types: [created]
+    types:
+      - created
 
 jobs:
   build:
@@ -10,13 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
       with:
         ref: "${{ github.event.release.tag_name }}"
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        version: 2.6.x
+        ruby-version: '3.2'
 
     - name: Publish to RubyGems
       run: |

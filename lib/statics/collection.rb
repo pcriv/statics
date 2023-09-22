@@ -4,7 +4,7 @@ module Statics
   class Collection
     extend Forwardable
     include Enumerable
-    include Dry::Equalizer(:records)
+    include Dry::Core::Equalizer(:records)
 
     def_delegators :@records, :last, :size
 
