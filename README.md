@@ -16,19 +16,19 @@ Links:
 
 ## Requirements
 
-1. [Ruby 2.5.0](https://www.ruby-lang.org)
+1. [Ruby 3.0.0](https://www.ruby-lang.org)
 
 ## Installation
 
 To install, run:
 
-```
+```sh
 gem install statics
 ```
 
 Or add the following to your Gemfile:
 
-```
+```sh
 gem "statics"
 ```
 
