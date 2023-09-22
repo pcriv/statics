@@ -10,12 +10,12 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.version = Statics::VERSION
   spec.authors = ["Pablo Crivella"]
-  spec.homepage = "https://github.com/pablocrivella/statics"
+  spec.homepage = "https://github.com/pcriv/statics"
   spec.summary = "Base class and modules for static models."
   spec.metadata = {
-    "bug_tracker_uri" => "https://github.com/pablocrivella/statics/issues",
-    "changelog_uri" => "https://github.com/pablocrivella/statics/blob/master/CHANGELOG.md",
-    "source_code_uri" => "https://github.com/pablocrivella/statics"
+    "bug_tracker_uri" => "https://github.com/pcriv/statics/issues",
+    "changelog_uri" => "https://github.com/pcriv/statics/blob/master/CHANGELOG.md",
+    "source_code_uri" => "https://github.com/pcriv/statics"
   }
   spec.files = Dir["lib/**/*"]
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]

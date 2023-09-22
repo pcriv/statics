@@ -1,18 +1,18 @@
 # Statics
 
 [![Gem](https://img.shields.io/gem/v/statics.svg?style=flat)](http://rubygems.org/gems/statics)
-[![Depfu](https://badges.depfu.com/badges/6f2f73672eae4d603d6ae923164435e2/overview.svg)](https://depfu.com/github/pablocrivella/statics?project=Bundler)
-[![Inline docs](http://inch-ci.org/github/pablocrivella/statics.svg?branch=master&style=shields)](http://inch-ci.org/github/pablocrivella/statics)
-[![Maintainability](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/maintainability)](https://codeclimate.com/github/pablocrivella/statics/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/test_coverage)](https://codeclimate.com/github/pablocrivella/statics/test_coverage)
+[![Depfu](https://badges.depfu.com/badges/6f2f73672eae4d603d6ae923164435e2/overview.svg)](https://depfu.com/github/pcriv/statics?project=Bundler)
+[![Inline docs](http://inch-ci.org/github/pcriv/statics.svg?branch=master&style=shields)](http://inch-ci.org/github/pcriv/statics)
+[![Maintainability](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/maintainability)](https://codeclimate.com/github/pcriv/statics/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/test_coverage)](https://codeclimate.com/github/pcriv/statics/test_coverage)
 
 Base class and modules for static models.
 
 Links:
 
 - [API Docs](https://www.rubydoc.info/gems/statics)
-- [Contributing](https://github.com/pablocrivella/statics/blob/master/CONTRIBUTING.md)
-- [Code of Conduct](https://github.com/pablocrivella/statics/blob/master/CODE_OF_CONDUCT.md)
+- [Contributing](https://github.com/pcriv/statics/blob/master/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/pcriv/statics/blob/master/CODE_OF_CONDUCT.md)
 
 ## Requirements
 
@@ -179,5 +179,5 @@ Read [Semantic Versioning](https://semver.org) for details. Briefly, it means:
 
 ## License
 
-Copyright 2018 [Pablo Crivella](https://pablocrivella.me).
+Copyright 2018 [Pablo Crivella](https://pcriv.com).
 Read [LICENSE](LICENSE) for details.

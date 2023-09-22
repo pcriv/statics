@@ -62,8 +62,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - First release.
 
-[Unreleased]: https://github.com/pablocrivella/statics/compare/v2.0.0...HEAD
-[2.0.0]: https://github.com/pablocrivella/statics/compare/v1.3.0...v2.0.0
-[1.3.0]: https://github.com/pablocrivella/statics/releases/tag/v1.2.1...v1.3.0
-[1.2.0]: https://github.com/pablocrivella/statics/releases/tag/v1.1.1...v1.2.0
-[1.1.1]: https://github.com/pablocrivella/statics/releases/tag/v1.1.1
+[Unreleased]: https://github.com/pcriv/statics/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/pcriv/statics/compare/v1.3.0...v2.0.0
+[1.3.0]: https://github.com/pcriv/statics/releases/tag/v1.2.1...v1.3.0
+[1.2.0]: https://github.com/pcriv/statics/releases/tag/v1.1.1...v1.2.0
+[1.1.1]: https://github.com/pcriv/statics/releases/tag/v1.1.1
